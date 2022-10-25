@@ -12,7 +12,7 @@ import { ProductButtons, ProductCard, ProductImage, ProductTitle } from 'ca-prod
 ```
 <ProductCard
     initialValues={{ count: 0, maxCount: 10 }}
-    product={product}
+    product={{id: '1', title: 'Coffee Mug - Card'}}
 >
     {({ reset, increaseBy, isMaxCountReached, count, maxCount }) => (
         <>
