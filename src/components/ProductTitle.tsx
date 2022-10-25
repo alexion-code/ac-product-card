@@ -10,8 +10,6 @@ export const ProductTitle = ({
 }: IProductTitleProps) => {
   const { product } = useContext(ProductContext);
   return (
-    <span style={style} className={`${styles.productDescription} ${className}`}>
-      {title ? title : product && product.title}
-    </span>
+    <span style={style} className={`${styles.productDescription} ${className}`}>{title ? title : product && product.title}</span>
   );
 };

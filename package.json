@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0-rc",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/alexion-code/ac-product-card",
@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "siios-ac-product-card",
+  "name": "siios-product-card",
   "author": "siios",
   "module": "dist/ac-product-card.esm.js",
   "size-limit": [
