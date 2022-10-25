@@ -1,4 +1,4 @@
-# ca-product-card
+# siios-ca-product-card
 
 Este es un paquete de pruebas de despliegue en NPM.
 
